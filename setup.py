@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='simplemath_leonardosantosdev',
-    version='0.1.0',
+    version='0.1.3',
     author='Leonardo Santos',
     author_email='leodossantosldsl@gmail.com',
     description='A simple math operations package',
@@ -14,7 +14,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'simplemath_leonardosantosdev=cli_opts:main',  # Replace with your CLI module
+            'simplemath_leonardosantosdev=simplemath_leonardosantosdev.__main__:main',
         ],
     },
     classifiers=[

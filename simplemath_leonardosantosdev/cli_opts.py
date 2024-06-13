@@ -3,7 +3,7 @@ from simplemath_leonardosantosdev.arithmetic import add, subtract, multiply, div
 
 def main():
     args = sys.argv[1:]  # Exclude the script name (first argument)
-    if len(args) != 2:
+    if len(args) != 3:
         print("Usage: simplemath_leonardosantosdev <operation> <num1> <num2>")
         sys.exit(1)
     
